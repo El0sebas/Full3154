@@ -50,6 +50,9 @@ body{
     margin:20px;
     float:left;
 }
+.seccion img{
+    width: 100%;
+}
 article{
     background: #fffbcc;
     border: 1px solid #999;
