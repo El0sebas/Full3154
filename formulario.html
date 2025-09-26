@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Registro de Clientes</title>
+</head>
+<body>
+  <h2>Formulario de Registro de Clientes</h2>
+  
+  <form action="#" method="post">
+   
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido"><br><br>
+    
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo"><br><br>
+    
+    <label for="contraseña">Contraseña:</label>
+    <input type="password" id="contraseña" name="contraseña"><br><br>
+    
+  <fieldset>
+    <p>Género:</p>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label>
+    
+    <input type="radio" id="femenino" name="genero" value="femenino">
+    <label for="femenino">Femenino</label>
+    </fieldset>
+    <br><br>
+    
+  
+    <label for="fecha">Fecha de nacimiento:</label>
+    <input type="date" id="fecha" name="fecha"><br><br>
+    
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono"><br><br>
+    
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion"><br><br>
+    
+    
+    <h3>Selecciona un régimen:</h3>
+    <label for="regimen">Régimen:</label>
+    <select id="regimen" name="regimen">
+      <option value="">Seleccione una opción</option>
+      <option value="general">General</option>
+      <option value="especial">Especial</option>
+      <option value="simplificado">Simplificado</option>
+    </select>
+    <br><br>
+    
+   
+    <p>Intereses:</p>
+    <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
+    <label for="tecnologia">Tecnología</label>
+    
+    <input type="checkbox" id="viajes" name="intereses" value="viajes">
+    <label for="viajes">Viajes</label>
+    
+    <input type="checkbox" id="deportes" name="intereses" value="deportes">
+    <label for="deportes">Deportes</label>
+    <br><br>
+    
+    <label for="comentarios">Comentarios:</label><br>
+    <textarea id="comentarios" name="comentarios" rows="5" cols="40"></textarea>
+    <br><br>
+    
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+  </form>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Email</th>
+      <th>telefono</th>
+      <th>regimen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>001</td>
+      <td>Ana Gómez.</td>
+      <td>ana.gomez@example.com</td>
+      <td>3003123112</td>
+      <td>simplificado</td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+</html>
